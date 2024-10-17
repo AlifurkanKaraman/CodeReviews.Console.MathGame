@@ -6,7 +6,7 @@ namespace Karamanaf.MathGame2
     internal class Menu
     {
         GameEngine engine = new();
-        internal void showMenu(string name, DateTime date)
+        internal void ShowMenu(string name, DateTime date)
         {
             ShowIntroMessage(name, date);
             var isGameOn = true;
